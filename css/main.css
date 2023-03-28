@@ -1,15 +1,15 @@
 /* Place CSS styles here */
 
 body {
-  background-image: url("img/");
-  background-color: rgb(156, 187, 128);
-  font-family: 'EB Garamond', serif;
+  background-image: url("img/fight.jpg");
+  background-color: rgb(228, 124, 97);
+  font-family: halcom, sans-serif;
   padding:12px 24px;
 
 } 
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: octin-vintage, sans-serif;
   font-style: italic;
   font-weight: 700;
   text-transform: uppercase;
