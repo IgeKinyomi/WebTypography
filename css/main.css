@@ -8,6 +8,13 @@ body {
 
 } 
 
+.background {
+  background-image: url(./img/images/Nemo.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 100vh;
+}
+
 h1 {
   font-family: octin-vintage, sans-serif;
   font-style: italic;
