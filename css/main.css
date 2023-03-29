@@ -1,28 +1,29 @@
 /* Place CSS styles here */
 
 body {
-  background-image: url("img/fight.jpg");
   background-color: rgb(228, 124, 97);
   font-family: halcom, sans-serif;
   padding:12px 24px;
 
 } 
 
-.background {
-  background-image: url(./img/images/Nemo.jpg);
-  background-size: cover;
-  background-position: bottom;
-  min-height: 100vh;
-}
-
 h1 {
   font-family: octin-vintage, sans-serif;
   font-style: italic;
   font-weight: 700;
   text-transform: uppercase;
-  text-shadow: 5px 4px 7px #48b2cb;
+  text-shadow: 5px 4px 7px #cb4899;
   display:flex;
   justify-content: center;
+}
+.lyrics-wrapper {
+ 
+  padding-top: 20pt;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 70px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -35,42 +36,23 @@ h2 {
     display: flex;
     justify-content: center;
 }
-
+/* */
 @media screen and (max-width: 767px) 
-  .background {
-    background-image: url();
+  {
+  
   }
 
 @media screen and (min-width: 768px) 
 
 
-/* sword code*/
-
-
-
-/* sword code end*/
-
-
-
-@media screen and (min-width: 480px) {
-  body {
-    background-image: (images/fight.jpg)
-  }
-}
-
-.buttons {
-  display: flex;
-  padding 50px;
+@media screen and (min-width: 480px)
+ {
+ 
 }
 
 @media screen and (max-width: 767px) {
-  .buttons {
-    flex-direction: column;
-  }
 }
 
 @media screen and (min-width: 768px) {
-  .buttons {
-    flex-direction: row;
-  }
+
 }
