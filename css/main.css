@@ -2,6 +2,8 @@
 
 body {
   background-color: rgb(228, 124, 97);
+  background-image: url(/images/);
+  background-size: cover;
   font-family: halcom, sans-serif;
   padding:12px 24px;
 
@@ -24,6 +26,7 @@ h1 {
   margin-right: auto;
   line-height: 70px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 h2 {
