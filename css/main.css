@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(228, 124, 97);
-  background-image: url(/images/);
+  background-image: url('/images/fight.jpg');
   background-size: cover;
   font-family: halcom, sans-serif;
   padding:12px 24px;
