@@ -3,6 +3,7 @@
 body {
   background-color: rgb(228, 124, 97);
   background-image: url('/images/fight.jpg');
+  background-position: center;
   background-size: cover;
   font-family: halcom, sans-serif;
   padding:12px 24px;
@@ -25,9 +26,10 @@ h1 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 28px;
+  line-height: 50px;
   padding-bottom: 20px;
   text-align: center;
+  font-size: larger;
 }
 
 h2 {
@@ -40,6 +42,48 @@ h2 {
     display: flex;
     justify-content: center;
 }
+.fighting-design{
+  font-family: sneakers-pro, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.promise-design{
+  font-family: canvas-script, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.love-design{
+  font-family: memoriam-inline-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.darkest-design{
+  font-family: bmx-radical, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.night-design{
+  font-family: rhythm-two, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.faith-design{
+  font-family: nelson-rugged, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.weak-design{
+  font-family: monte-stella-turbo, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 /* */
 @media screen and (max-width: 767px) 
   {
