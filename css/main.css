@@ -17,14 +17,15 @@ h1 {
   text-shadow: 5px 4px 7px #cb4899;
   display:flex;
   justify-content: center;
+  color: wheat;
 }
 .lyrics-wrapper {
- 
+  color:white;
   padding-top: 20pt;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 70px;
+  line-height: 28px;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -34,7 +35,7 @@ h2 {
     padding-bottom: 20pt;
     font-family: octin-sports, sans-serif;
     font-size: 25pt;
-    color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
     text-shadow: 2px 5px 2px rgb(219, 117, 165);
     display: flex;
     justify-content: center;
