@@ -12,6 +12,7 @@ body {
 h1 {
   font-family: octin-vintage, sans-serif;
   font-style: italic;
+  font-size: 45px;
   font-weight: 700;
   text-transform: uppercase;
   text-shadow:  5px 4px 7px #0400ff;;
@@ -96,31 +97,44 @@ h2 {
 .link--Fight:hover::before {
 	width: 100%;
 }
+/* use kukuri  */
 .fighting-design{
   color: rgb(138, 6, 6);
   font-family: sneakers-pro, sans-serif;
+  text-shadow:-1px 1px 5px rgb(255, 255, 255);
   font-weight: 400;
   font-style: italic;
 }
-
+/*use suriname*/
 .promise-design{
   font-family: canvas-script, sans-serif;
   font-weight: 200;
   font-style: normal;
+  color: #000864;
+  border: 2px solid #000864;
+  background-color: lightyellow;
+  border-radius: 4px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
 }
-
+/* */
 .love-design{
   color: palevioletred;
   font-family: memoriam-inline-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 0px 0px 10px #c0a5f7;
 }
-
+/* use pulse hover effet*/
 .darkest-design{
   color: black;
+  text-shadow: 0px 2px 0px rgb(82, 7, 7);
   font-family: bmx-radical, sans-serif;
   font-weight: 400;
   font-style: normal;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
 .night-design{
@@ -128,23 +142,23 @@ h2 {
   font-family: rhythm-two, sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-decoration: 0 rgb(163, 148, 133);
 }
 
 .faith-design{
   color: rgb(61, 6, 61);
   font-family: nelson-rugged, sans-serif;
+  text-decoration: underline;
+  text-shadow: 0px 0px 10px rgb(240 223 249);
   font-weight: 400;
   font-style: normal;
 }
 
 .weak-design{
-  color: goldenrod;
+  color: rgb(54, 41, 27);
   font-family: monte-stella-turbo, sans-serif;
   font-weight: 300;
   font-style: normal;
-
-  
-  text-shadow: 0px 0px 0 rgb(163, 148, 133), 1px 1px 0 rgb(128, 113, 98), 2px 2px 0 rgb(102, 86, 70), 3px 3px 0 rgb(85, 69, 53), 4px 4px 0 rgb(77, 61, 45), 5px 5px 0 rgb(54, 41, 27), 6px 6px 0 rgb(39, 29, 17);
   letter-spacing: 5px;
   padding-left: 3px;
   padding-right: 3px;
@@ -152,6 +166,25 @@ h2 {
   border-radius: 15px;
 }
 
+.weak-design:hover {
+  text-transform: uppercase;
+  text-transform: unset;
+  text-decoration: line-through;
+  font-size: 150%;
+  letter-spacing: 4px;
+  padding-left: 7px;
+  color: rgb(0 0 0);
+  background-color: rgb(253 253 253);
+  padding: 6px;
+  border-radius: 20px;
+  border: 5px;
+}
+
+.name {
+  font-family: octin-sports, sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 13px rgb(190, 27, 103);
+}
 /* */
 @media screen and (max-width: 767px) 
   {
