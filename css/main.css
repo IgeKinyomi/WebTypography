@@ -43,29 +43,30 @@ h2 {
     justify-content: center;
 }
 
-.link {
-	outline: none;
-	text-decoration: none;
-	position: relative;
-	font-size: 8em;
-  font-family: octin-sports, sans-serif;
-	line-height: 1;
-	color: #793fee;
-	display: inline-block;
+
+/* use kukuri  */
+.fighting-design{
+  color: rgb(138, 6, 6);
+  font-family: sneakers-pro, sans-serif;
+  text-shadow:-1px 1px 5px rgb(255, 255, 255);
+  font-weight: 400;
+  font-style: italic;
 }
-.link--Fight {
+
+.fighting-design{
+  position: relative;
+  line-height: 1;
+  display: inline-block;
 	text-transform: uppercase;
-	font-weight: 900;
 	overflow: hidden;
 	line-height: 0.75;
+}
+
+.fighting-design:hover {
 	color: #b2b0a9;
 }
 
-.link--Fight:hover {
-	color: #b2b0a9;
-}
-
-.link--Fight::after {
+.fighting-design::after {
 	content: '';
 	position: absolute;gi
 	height: 16px;
@@ -79,11 +80,11 @@ h2 {
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 }
 
-.link--Fight:hover::after {
+.fighting-design:hover::after {
 	transform: translate3d(100%,0,0);
 }
 
-.link--Fight::before {
+.fighting-design::before {
 	content: attr(data-letters);
 	position: absolute;
 	z-index: 2;
@@ -94,17 +95,10 @@ h2 {
 	transition: width 0.4s 0.3s;
 }
 
-.link--Fight:hover::before {
+.fighting-design:hover::before {
 	width: 100%;
 }
-/* use kukuri  */
-.fighting-design{
-  color: rgb(138, 6, 6);
-  font-family: sneakers-pro, sans-serif;
-  text-shadow:-1px 1px 5px rgb(255, 255, 255);
-  font-weight: 400;
-  font-style: italic;
-}
+
 /*use suriname*/
 .promise-design{
   font-family: canvas-script, sans-serif;
@@ -117,7 +111,7 @@ h2 {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
 }
-/* */
+/*used keyframe */
 .love-design{
   color: palevioletred;
   font-family: memoriam-inline-pro, sans-serif;
@@ -125,6 +119,17 @@ h2 {
   font-style: normal;
   text-shadow: 0px 0px 10px #c0a5f7;
 }
+
+@keyframes love {
+  from  {color: palevioletred;}
+     to {color: rgb(255, 0, 0);}
+}
+
+.love-design:hover {
+animation-name:love;
+animation-duration: 2s;
+}
+
 /* use pulse hover effet*/
 .darkest-design{
   color: black;
