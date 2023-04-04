@@ -68,7 +68,7 @@ h2 {
 
 .fighting-design::after {
 	content: '';
-	position: absolute;gi
+	position: absolute;
 	height: 16px;
 	width: 100%;
 	top: 50%;
