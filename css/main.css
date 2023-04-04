@@ -1,7 +1,7 @@
 /* Place CSS styles here */
 
 body {
-  background: linear-gradient(rgb(243 175 175 / 79%), rgba(0, 0, 0, 0.45)), url('/images/fight.jpg');
+  background: linear-gradient(rgb(127 57 57 / 76%), rgb(0 16 209 / 29%)), url('/images/fight.jpg');
   background-position: center;
   background-size: cover;
   font-family: halcom, sans-serif;
@@ -149,7 +149,7 @@ animation-duration: 2s;
 }
 
 .night-design{
-  color: rgb(16, 16, 78);
+  color: rgb(0, 0, 0);
   font-family: rhythm-two, sans-serif;
   font-weight: 400;
   font-style: normal;
